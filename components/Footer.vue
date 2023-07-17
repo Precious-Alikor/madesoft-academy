@@ -6,11 +6,11 @@
         alt="logo"
         class="footer-logo w-32"
       />
-      <p class="mt-3 mb-8 text-sm text-gray02">
+      <p class="mt-3 mb-8 text-sm text-gray02 w-1/3">
         Madesoft Academy prepares students for fulfilling and rewarding careers
         in the engineering, and tech space
       </p>
-      <div class="flex justify-between mb-10 border border-white">
+      <div class="mb-10 grid grid-cols-[4fr,8fr]">
         <div class="pt-6">
           <p class="flex mb-4 text-gray01 text-sm">
             <img
@@ -54,7 +54,7 @@
             <img src="../assets/images/twitter.svg" alt="twitter" />
           </div>
         </div>
-        <div class="flex justify-between border border-primary">
+        <div class="flex justify-around">
           <div class="quicklinks flex flex-col">
             <h4 class="mb-4 text-lg font-medium">Quick links</h4>
             <a href="#" class="mb-2 text-sm text-gray01">Sign Up</a>
