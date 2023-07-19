@@ -55,7 +55,7 @@
           </div>
         </div>
         <div class="flex justify-around">
-          <div class="quicklinks flex flex-col">
+          <div class="quicklinks flex flex-col text-white">
             <h4 class="mb-4 text-lg font-medium">Quick links</h4>
             <a href="#" class="mb-2 text-sm text-gray01">Sign Up</a>
             <a href="#" class="mb-2 text-sm text-gray01">Log In</a>
@@ -63,7 +63,7 @@
             <a href="#" class="mb-2 text-sm text-gray01">Reviews</a>
             <a href="#" class="text-sm text-gray01">Watch videos</a>
           </div>
-          <div class="company flex flex-col">
+          <div class="company flex flex-col text-white">
             <h4 class="mb-4 text-lg font-medium">Company</h4>
             <a href="#" class="mb-2 text-sm text-gray01">About Us</a>
             <a href="#" class="mb-2 text-sm text-gray01">Courses</a>
@@ -73,7 +73,7 @@
             <a href="#" class="text-sm text-gray01">Become a mentor</a>
           </div>
           <div class="courses flex flex-col">
-            <h4 class="mb-4 text-lg font-medium">Courses</h4>
+            <h4 class="mb-4 text-lg font-medium text-white">Courses</h4>
             <a href="#" class="mb-2 text-sm text-gray01"
               >School of Engineering Technology</a
             >
@@ -104,9 +104,6 @@ export default {};
 </script>
 
 <style>
-* {
-  color: white;
-}
 .info {
   width: 27px;
 }

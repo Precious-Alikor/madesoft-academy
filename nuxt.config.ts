@@ -10,4 +10,25 @@ export default defineNuxtConfig({
   build: {
     transpile: ["primevue"],
   },
+
+  app: {
+    head: {
+      title: "Madesoft Academy",
+    
+
+      link: [
+       
+        {
+          href: "path/to/font-awesome/css/font-awesome.min.css",
+          rel: "stylesheet",
+        },
+   
+      ],
+      script: [
+        {
+          src: 'https://kit.fontawesome.com/ed95a14eea.js'
+      },
+      ],
+    },
+  },
 });
